@@ -4,8 +4,8 @@
 
 |  #  |                          Project Code                           |                                 Live Demo                                  |
 | :-: | :-------------------------------------------------------------: | :------------------------------------------------------------------------: |
-| 01  |         [Form Validator](./Projects/01-Form-Validator/)         |    [Live Demo](https://vanillawebprojects.com/projects/form-validator/)    |
-| 02  |     [Movie Seat Booking](./Projects/02-Movie-Seat-Booking/)     |  [Live Demo](https://vanillawebprojects.com/projects/movie-seat-booking/)  |
+| 01  |         [Form Validator](./Projects/01-Form-Validator/)         |           [Live Demo](https://form-validator-gryo.netlify.app/)            |
+| 02  |     [Movie Seat Booking](./Projects/02-Movie-Seat-Booking/)     |         [Live Demo](https://movie-seat-booking-gryo.netlify.app/)          |
 | 03  |    [Custom Video Player](./Projects/03-Custom-Video-Player/)    | [Live Demo](https://vanillawebprojects.com/projects/custom-video-player/)  |
 | 04  |    [Exchange Rate Calculator](./Projects/04-Exchange-Rate/)     |    [Live Demo](https://vanillawebprojects.com/projects/exchange-rate/)     |
 | 05  |  [DOM Array Methods Project](./Projects/05-DOM-Array-Methods/)  |  [Live Demo](https://vanillawebprojects.com/projects/dom-array-methods/)   |
