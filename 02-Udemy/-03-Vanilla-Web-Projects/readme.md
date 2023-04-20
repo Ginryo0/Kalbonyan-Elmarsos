@@ -27,6 +27,6 @@
 
 ---
 
-[Course-Link](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)<br>
+[Course-Link](https://www.udemy.com/course/web-projects-with-vanilla-javascript/)<br>
 
 ![Certificate](https://udemy-certificate.s3.amazonaws.com/image/UC-a2e999a3-5766-4c37-9b30-e5b9ceb146e9.jpg)
