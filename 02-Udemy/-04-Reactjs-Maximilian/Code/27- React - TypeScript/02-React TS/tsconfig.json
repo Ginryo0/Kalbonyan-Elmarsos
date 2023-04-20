@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    // target= js version -> es5 -> to var = broad browser support
+    "target": "es5",
+    // built in types
+    "lib": ["dom", "dom.iterable", "esnext"],
+    // allow .js files mixed with .ts files
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    // can't have implicitly any values -> like parameters must have types
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": ["src"]
+}
