@@ -2,10 +2,30 @@
 
 ## Projects
 
-### project
+### Calculator (S2, S4, S6)
 
-- [Project Code](./Projects/)
-- [Live Demo]()
+- [Project Code](./Projects/01-Calculator/)
+- [Live Demo](https://calculator-gryo.netlify.app/)
+
+### Favorite Movies (S7)
+
+- [Project Code](./Projects/01-Calculator/)
+- [Live Demo](https://calculator-gryo.netlify.app/)
+
+### Mini Shop (S10)
+
+- [Project Code](./Projects/01-Calculator/)
+- [Live Demo](https://calculator-gryo.netlify.app/)
+
+### Project Planner (S14)
+
+- [Project Code](./Projects/02-Project-Planner/)
+- [Live Demo](https://calculator-gryo.netlify.app/)
+
+### Posts (S18)
+
+- [Project Code](./Projects/03-Posts/)
+- [Live Demo](https://calculator-gryo.netlify.app/)
 
 ---
 
