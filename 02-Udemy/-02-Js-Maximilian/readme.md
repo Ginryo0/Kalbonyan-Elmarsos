@@ -36,8 +36,8 @@
 
 ## Code
 
-[code](Code)
-[assignments](Code/assignments/)
+- [code](Code)
+- [assignments](Code/assignments/)
 
 ---
 
