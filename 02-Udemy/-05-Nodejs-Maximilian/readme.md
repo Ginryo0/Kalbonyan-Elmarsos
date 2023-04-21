@@ -12,6 +12,7 @@
 ## Code
 
 [code](Code)
+[assignments](Code/Assignments/)
 
 ---
 
