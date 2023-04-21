@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Web Components</title>
+    <script src="tooltip.js"></script>
+    <script src="confirm-link.js"></script>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        --color-primary: rgb(113, 183, 230);
+        font-family: sans-serif;
+      }
+
+      /* .highlight {
+        background-color: green;
+        /* border: 2px solid red; can override slotted */
+      /*} */
+    </style>
+  </head>
+  <body>
+    <template id="tooltip-template">
+      <slot>Default slot</slot><span> (?)</span>
+    </template>
+    <p>
+      <kalbonyan-tooltip text="standard text bla bla bla" class="important"
+        ><span class="highlight">Web Components</span></kalbonyan-tooltip
+      >
+      are awesome!
+    </p>
+    <kalbonyan-tooltip>Default slot</kalbonyan-tooltip>
+    <a is="kalbonyan-link" href="https://www.google.com">google</a>
+  </body>
+</html>
