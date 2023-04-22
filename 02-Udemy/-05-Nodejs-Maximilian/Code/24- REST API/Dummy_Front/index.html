@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="get">Get Posts</button>
+    <button id="post">Create a Post</button>
+  </body>
+  <script>
+    const getBtn = document.getElementById('get');
+    const postBtn = document.getElementById('post');
+
+    getBtn.addEventListener('click', () => {
+      console.log('Fetching');
+      fetch('http://localhost:8080/feed/posts')
+        .then((res) => res.json())
+        .then((resData) => console.log(resData))
+        .catch((err) => console.log(err));
+    });
+
+    // Don't forget Content-Type
+    postBtn.addEventListener('click', () => {
+      console.log('Posting');
+      fetch('http://localhost:8080/feed/post', {
+        method: 'POST',
+        body: JSON.stringify({ title: 'CLient Post', content: 'New Post' }),
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      })
+        .then((res) => res.json())
+        .then((resData) => console.log(resData))
+        .catch((err) => console.log(err));
+    });
+  </script>
+</html>

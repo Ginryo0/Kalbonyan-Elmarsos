@@ -2,35 +2,35 @@
 
 ## Projects
 
-### Calculator (S2, S4, S6)
+### Calculator (S6)
 
 - [Project Code](./Projects/01-Calculator/)
 - [Live Demo](https://calculator-gryo.netlify.app/)
 
 ### Favorite Movies (S7)
 
-- [Project Code](./Projects/01-Calculator/)
+- [Project Code](./Projects/02-Favorite-Movies/)
 - [Live Demo](https://fav-movies-gryo.netlify.app/)
 
 ### Mini Shop (S10)
 
-- [Project Code](./Projects/01-Calculator/)
+- [Project Code](./Projects/03-Mini-Shop/)
 - [Live Demo](https://mini-shop-gryo.netlify.app/)
 
 ### Project Planner (S14)
 
-- [Project Code](./Projects/02-Project-Planner/)
+- [Project Code](./Projects/04-Project-Planner/)
 - [Live Demo](https://project-planner-gryo.netlify.app/)
 
 ### Posts (S18)
 
-- [Project Code](./Projects/03-Posts/)
+- [Project Code](./Projects/05-Posts/)
 - [Live Demo](https://posts-js-gryo.netlify.app/)
 
-### Map (S24)
+### Map (S29)
 
-- [Project Code](./Projects/03-Posts/)
-- [Live Demo](https://posts-js-gryo.netlify.app/)
+- [Project Code](./Projects/06-Map/)
+- [Live Demo](https://map-gryo.netlify.app/)
 
 ---
 
