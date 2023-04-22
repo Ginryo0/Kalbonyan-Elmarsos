@@ -15,7 +15,7 @@
 | 07  |             [Hangman Game](./Projects/07-Hangman/)              |       [Live Demo](https://hangman-gryo.netlify.app/)       |
 | 08  |          [Mealfinder App](./Projects/08-Meal-Finder/)           |     [Live Demo](https://mealfinder-gryo.netlify.app/)      |
 | 09  |        [Expense Tracker](./Projects/09-Expense-Tracker/)        |  [Live Demo](https://expenses-tracker-gryo.netlify.app/)   |
-| 10  |          [Qura'n Player](./Projects/10-Quraan-Player/)          |    [Live Demo](https://quran-player-gryo.netlify.app/)     |
+| 10  |           [Audio Player](./Projects/10-Audio-Player/)           |    [Live Demo](https://quran-player-gryo.netlify.app/)     |
 | 11  |     [Infinite Scrolling](./Projects/11-Infinite-Scrolling/)     |    [Live Demo](https://infinite-blog-gryo.netlify.app/)    |
 | 12  |             [Typing Game](./Projects/12-Type-Race/)             |      [Live Demo](https://type-race-gryo.netlify.app/)      |
 | 13  |     [Speech Text Reader](./Projects/13-Speech-Text-Reader/)     | [Live Demo](https://speech-text-reader-gryo.netlify.app/)  |
