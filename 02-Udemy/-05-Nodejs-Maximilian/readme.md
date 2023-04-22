@@ -4,15 +4,15 @@
 
 ## Projects
 
-### Shop (S26)
-
-- [Project Code](./Projects/)
-- [Live Demo]()
-
 ### Social Feed (S28)
 
-- [Project Code](./Projects/)
-- [Live Demo]()
+- [Project Code](./Projects/01-Social-Feed/)
+- [Live Demo](https://social-feed-gryo.onrender.com/)
+
+### Shop (S29)
+
+- [Project Code](./Projects/02-Shop/)
+- [Live Demo](https://node-4y1s.onrender.com/)
 
 ---
 
