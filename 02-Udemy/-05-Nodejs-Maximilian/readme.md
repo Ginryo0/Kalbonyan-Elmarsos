@@ -1,8 +1,15 @@
 # NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)
 
+---
+
 ## Projects
 
-### project
+### Shop (S26)
+
+- [Project Code](./Projects/)
+- [Live Demo]()
+
+### Social Feed (S28)
 
 - [Project Code](./Projects/)
 - [Live Demo]()

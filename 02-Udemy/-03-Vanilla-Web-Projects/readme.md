@@ -1,5 +1,7 @@
 # 20+ Web Projects With Vanilla JavaScript
 
+---
+
 ## Projects
 
 |  #  |                          Project Code                           |                         Live Demo                          |

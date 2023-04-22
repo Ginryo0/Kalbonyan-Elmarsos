@@ -1,3 +1,5 @@
 # React - The Complete Guide (incl Hooks, React Router, Redux)
 
-### Assignments are a part of the main code
+---
+
+### All Assignments are included in course code

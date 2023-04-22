@@ -1,5 +1,7 @@
 # JavaScript - The Complete Guide 2023 (Beginner + Advanced)
 
+---
+
 ## Projects
 
 ### Calculator (S6)
@@ -22,7 +24,7 @@
 - [Project Code](./Projects/04-Project-Planner/)
 - [Live Demo](https://project-planner-gryo.netlify.app/)
 
-### Posts (S18)
+### Posts (S19)
 
 - [Project Code](./Projects/05-Posts/)
 - [Live Demo](https://posts-js-gryo.netlify.app/)
@@ -36,8 +38,8 @@
 
 ## Code
 
-- [code](Code)
-- [assignments](Code/assignments/)
+- [Code](Code)
+- [Assignments](Code/assignments/)
 
 ---
 

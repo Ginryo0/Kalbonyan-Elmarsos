@@ -1,5 +1,7 @@
 # React - The Complete Guide (incl Hooks, React Router, Redux)
 
+---
+
 ## Projects
 
 ### expenses-app (S3-S5)
@@ -127,7 +129,7 @@
 
 ## Code
 
-##### Assignments inside
+##### Assignments included
 
 [code](Code)
 
