@@ -6,6 +6,8 @@
 
 ### Shop (S05 - S23, S29)
 
+#### Project Code
+
 - [S05- Express](./Projects/01-Shop/S05-%20Express/)
 - [S07 - MVC](./Projects/01-Shop/S07%20-%20MVC/)
 - [S09 - Dynamic Routes](./Projects/01-Shop/S09%20-%20Dynamic%20Routes/)
@@ -20,12 +22,17 @@
 - [S23- Payment](./Projects/01-Shop/S23-%20Payment/)
 - [S29- Deployment](./Projects/01-Shop/S29-%20Deployment/)
 
-- [Finished Live Demo](https://node-4y1s.onrender.com/)
+#### [Finished Live Demo](https://node-4y1s.onrender.com/)
 
 ### Social Feed (S25 - S28)
 
-- [Project Code](./Projects/02-Social-Feed/)
-- [Live Demo](https://social-feed-gryo.onrender.com/)
+#### Project Code
+
+- [S25- Rest API](./Projects/02-Social-Feed/S25-%20Rest%20API/)
+- [S27- Web Socket](./Projects/02-Social-Feed/S27-%20Web%20Socket/)
+- [S28- Graphql](./Projects/02-Social-Feed/S28%20-%20Graphql/)
+
+#### [Live Demo](https://social-feed-gryo.onrender.com/)
 
 ---
 
