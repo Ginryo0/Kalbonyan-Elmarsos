@@ -1,0 +1,10 @@
+export const DANGER_ALERT = 'DANGER_ALERT';
+export const SUCCESS_ALERT = 'SUCCESS_ALERT';
+export const CLEAR_ALERT = 'CLEAR_ALERT';
+export const SIGN_USER = 'SIGN_USER';
+export const SWITCH_LANG = 'SWITCH_LANG';
+export const SWITCH_THEME = 'SWITCH_THEME';
+export const LOG_OUT = 'LOG_OUT';
+export const UPDATE_USER = 'UPDATE_USER';
+export const START_LOADING = 'START_LOADING';
+export const FINISH_LOADING = 'FINISH_LOADING';

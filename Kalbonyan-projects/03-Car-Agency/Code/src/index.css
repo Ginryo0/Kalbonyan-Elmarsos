@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@300;400;500;700&family=Noto+Sans:wght@400;500;600;700&family=Nunito+Sans:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.cart-icon * {
+  transition: all 0.15s ease-out;
+}
+
+.cart-active .cart-btn .cart-icon *,
+.cart-active .cart-btn.scrolled .cart-icon * {
+  stroke: #741906;
+  fill: #741906;
+}
+
+.cart-active .cart-btn .cart-count,
+.cart-active .cart-btn.scrolled .cart-count {
+  background-color: #741906;
+  color: white;
+}
+
+.cart-btn.scrolled .cart-icon * {
+  stroke: #12273d;
+  fill: #12273d;
+}
+
+.cart-btn.scrolled .cart-count {
+  background-color: #12273d;
+  color: white;
+}
+
+.cart {
+  position: absolute;
+  top: 96px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 375px;
+  width: 100vw;
+  height: calc(100vh - 96px);
+  transform: translateX(100%);
+  transition: all 0.3s ease-out;
+  z-index: 1;
+  background-color: #020e1be3;
+}
+
+.cart-active .cart {
+  transform: translateX(0%);
+}
+
+/* hash span - navigation */
+.hash-span {
+  margin-top: 0;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .nav-bar ul {
+    position: absolute;
+    top: 81px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 250px;
+    width: 100vw;
+    height: calc(100vh - 81px);
+    transform: translateX(100%);
+    transition: all 0.3s ease-out;
+    z-index: 1;
+    background-color: #020e1be3;
+  }
+
+  .cart {
+    top: 81px;
+    height: calc(100vh - 81px);
+  }
+
+  .nav-active .nav-bar ul {
+    transform: translateX(0%);
+  }
+
+  .cart-icon * {
+    stroke: #12273d;
+    fill: #12273d;
+  }
+
+  .cart-count {
+    background-color: #12273d;
+    color: white;
+  }
+
+  .car-slider .slick-arrow {
+    display: none !important;
+  }
+
+  .car-slider.slick-slider {
+    padding: 0 0 !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .testimonial-slider.slick-slider {
+    height: 350px !important;
+    width: 325px;
+    margin: 80px auto 0;
+  }
+
+  .testimonial-slider .slick-track,
+  .testimonial-slider .slick-list,
+  .testimonial-slider .slick-slide {
+    height: 325px !important;
+  }
+}
+
+.car-slider.slick-slider {
+  width: 100vw;
+  max-width: 1560px;
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  justify-content: center;
+  padding: 0 100px;
+}
+
+.car-slider.slick-slider .slick-prev,
+.car-slider.slick-slider .slick-next {
+  transform: translate(0, 0);
+}
+
+.car-slider .slick-arrow {
+  position: static;
+  width: 54px;
+  height: 34.5px;
+  aspect-ratio: 1 / 1;
+  padding: 0px;
+  border-radius: 50%;
+  background-color: #741906;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease-out;
+}
+
+.car-slider .slick-arrow img {
+  width: 24px;
+  margin: 0 auto;
+}
+
+.car-slider .slick-arrow::before {
+  content: '';
+}
+
+.car-slider .slick-prev:hover,
+.car-slider .slick-next:hover,
+.car-slider .slick-prev:focus,
+.car-slider .slick-next:focus {
+  background-color: #12273d;
+}
+
+.car-slider .slick-list {
+  width: 2418px;
+  height: 540px;
+}
+
+.car-slider .slick-slide {
+  width: 378px;
+  box-shadow: 4px 4px 30px 0 #00000013;
+  height: 520px;
+  display: block;
+  margin: 0 15px;
+}
+
+.car-slider .slick-dots li button::before {
+  font-size: 11px;
+  color: #e5e5e5;
+  opacity: 100%;
+}
+
+.car-slider .slick-dots li.slick-active button::before {
+  color: #741906;
+  opacity: 100%;
+}
+
+.testimonial-slider.slick-slider {
+  height: 460px;
+}
+
+.testimonial-slider .slick-track,
+.testimonial-slider .slick-list {
+  background-color: white;
+  height: 424px;
+}
+
+.testimonial-slider .slick-dots li button::before {
+  font-size: 11px;
+  color: #e9e9e9;
+  opacity: 100%;
+}
+
+.testimonial-slider .slick-dots li.slick-active button::before {
+  color: #ebd8b8;
+  opacity: 100%;
+}
